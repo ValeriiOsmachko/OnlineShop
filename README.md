@@ -1,4 +1,5 @@
 # OnlineShop
+{<img src="https://travis-ci.org/ValeriiOsmachko/OnlineShop.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/ValeriiOsmachko/OnlineShop]
 <p>This is <strong>CLASSICAL</strong> web application which is created with usage of Servlet API and software design patterns.</p>
 <strong>Requirements of this application were next:</strong>
 <ul>
