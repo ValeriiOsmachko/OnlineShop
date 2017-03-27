@@ -1,0 +1,297 @@
+<%@ page isELIgnored="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://com.epam.osmachko" prefix="capthca" %> 
+ <%@ taglib prefix="c" 
+           uri="http://java.sun.com/jsp/jstl/core" %>
+ <%@ taglib prefix="ex" uri="WEB-INF/tlds/mytags.tld"%>
+ <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+ <%@ taglib uri="http://com.epam.localization" prefix="local"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>New Store A Ecommerce Category Flat Bootstarp Resposive Website Template | Register :: w3layouts</title>
+<link href="/Task10/resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" language="javascript" src="resources/js/validation.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/Task10/resources/js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="/Task10/resources/css/style1.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="New Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
+<!-- start menu -->
+<link href="/Task10/resources/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="/Task10/resources/js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>
+<script src="js/simpleCart.min.js"> </script>
+</head>
+
+<fmt:setLocale value="${pageContext.request.locale}"/>
+<fmt:setBundle basename="resources" var="lang"/>
+
+<body>
+	<div class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="search">
+					<form>
+						<input type="text" value="Search " onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Search';}">
+						<input type="submit" value="Go">
+					</form>
+				</div>
+				<div class="header-left">
+					<ul>
+						<li><a class="lock" href="login.html">Login</a></li>
+						<li><a class="lock" href="register.html">Register</a></li>
+						<li></li>
+
+					</ul>
+					<div class="cart box_1">
+						<a href="checkout.html">
+							<h3>
+								<div class="total">
+									<span class="simpleCart_total"></span> (<span
+										id="simpleCart_quantity" class="simpleCart_quantity"></span>
+									items)
+								</div>
+								<img src="images/cart.png" alt="" />
+							</h3>
+						</a>
+						<p>
+							<a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
+						</p>
+
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="head-top">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class=" h_menu4">
+					<ul class="memenu skyblue">
+						<li class="active grid"><a class="color8" href="index.html">Home</a></li>
+						<li><a class="color1" href="#">Shop</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1">
+										<div class="h_nav">
+											<ul>
+												<li><a href="products.html">Accessories</a></li>
+												<li><a href="products.html">Bags</a></li>
+												<li><a href="products.html">Caps & Hats</a></li>
+												<li><a href="products.html">Hoodies & Sweatshirts</a></li>
+												<li><a href="products.html">Jackets & Coats</a></li>
+												<li><a href="products.html">Jeans</a></li>
+												<li><a href="products.html">Jewellery</a></li>
+												<li><a href="products.html">Jumpers & Cardigans</a></li>
+												<li><a href="products.html">Leather Jackets</a></li>
+												<li><a href="products.html">Long Sleeve T-Shirts</a></li>
+												<li><a href="products.html">Loungewear</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col1">
+										<div class="h_nav">
+											<ul>
+												<li><a href="products.html">Shirts</a></li>
+												<li><a href="products.html">Shoes, Boots & Trainers</a></li>
+												<li><a href="products.html">Shorts</a></li>
+												<li><a href="products.html">Suits & Blazers</a></li>
+												<li><a href="products.html">Sunglasses</a></li>
+												<li><a href="products.html">Sweatpants</a></li>
+												<li><a href="products.html">Swimwear</a></li>
+												<li><a href="products.html">Trousers & Chinos</a></li>
+												<li><a href="products.html">T-Shirts</a></li>
+												<li><a href="products.html">Underwear & Socks</a></li>
+												<li><a href="products.html">Vests</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col1">
+										<div class="h_nav">
+											<h4>Popular Brands</h4>
+											<ul>
+												<li><a href="products.html">Levis</a></li>
+												<li><a href="products.html">Persol</a></li>
+												<li><a href="products.html">Nike</a></li>
+												<li><a href="products.html">Edwin</a></li>
+												<li><a href="products.html">New Balance</a></li>
+												<li><a href="products.html">Jack & Jones</a></li>
+												<li><a href="products.html">Paul Smith</a></li>
+												<li><a href="products.html">Ray-Ban</a></li>
+												<li><a href="products.html">Wood Wood</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div></li>
+						<li class="grid"><a class="color2" href="#"> Lookbook</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1">
+										<div class="h_nav">
+											<ul>
+												<li><a href="products.html">Accessories</a></li>
+												<li><a href="products.html">Bags</a></li>
+												<li><a href="products.html">Caps & Hats</a></li>
+												<li><a href="products.html">Hoodies & Sweatshirts</a></li>
+												<li><a href="products.html">Jackets & Coats</a></li>
+												<li><a href="products.html">Jeans</a></li>
+												<li><a href="products.html">Jewellery</a></li>
+												<li><a href="products.html">Jumpers & Cardigans</a></li>
+												<li><a href="products.html">Leather Jackets</a></li>
+												<li><a href="products.html">Long Sleeve T-Shirts</a></li>
+												<li><a href="products.html">Loungewear</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col1">
+										<div class="h_nav">
+											<ul>
+												<li><a href="products.html">Shirts</a></li>
+												<li><a href="products.html">Shoes, Boots & Trainers</a></li>
+												<li><a href="products.html">Shorts</a></li>
+												<li><a href="products.html">Suits & Blazers</a></li>
+												<li><a href="products.html">Sunglasses</a></li>
+												<li><a href="products.html">Sweatpants</a></li>
+												<li><a href="products.html">Swimwear</a></li>
+												<li><a href="products.html">Trousers & Chinos</a></li>
+												<li><a href="products.html">T-Shirts</a></li>
+												<li><a href="products.html">Underwear & Socks</a></li>
+												<li><a href="products.html">Vests</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col1">
+										<div class="h_nav">
+											<h4>Popular Brands</h4>
+											<ul>
+												<li><a href="products.html">Levis</a></li>
+												<li><a href="products.html">Persol</a></li>
+												<li><a href="products.html">Nike</a></li>
+												<li><a href="products.html">Edwin</a></li>
+												<li><a href="products.html">New Balance</a></li>
+												<li><a href="products.html">Jack & Jones</a></li>
+												<li><a href="products.html">Paul Smith</a></li>
+												<li><a href="products.html">Ray-Ban</a></li>
+												<li><a href="products.html">Wood Wood</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div></li>
+						<li><a class="color4" href="blog.html">Blog</a></li>
+						<li><a class="color6" href="contact.html">Conact</a></li>
+					</ul>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<local:localization/>
+	<!--content-->
+	<div class=" container">
+		<div class=" register">
+			<h1><fmt:message key="reg" bundle="${lang}"/></h1>
+			<form name="singInForm" onsubmit="return validate();"
+				action="./LoginServlet" method="POST">
+				<div class="col-md-6 register-top-grid">
+					<h3><fmt:message key="personalInfo" bundle="${lang}"/></h3>
+					<div>
+						<span id="namemsg"><fmt:message key="fname" bundle="${lang}"/> ${requestScope.errors.firstname}</span> <input type="text" name="firstName" value="${requestScope.user.firstName}">
+					</div>
+					<div>
+						<span id="lastnamemsg"><fmt:message key="lname" bundle="${lang}"/> ${requestScope.errors.lastname}</span> <input type="text" name="lastName" value="${requestScope.user.lastName}">
+					</div>
+					<div>
+						<span id="emailmsg"><fmt:message key="email" bundle="${lang}"/> ${requestScope.errors.email}</span> <input type="text" name="email" value="${requestScope.user.email}">
+					</div>
+					<a class="news-letter" href="#"> <label class="checkbox"><input
+							type="checkbox" name="checkbox" checked=""><i> </i>Sign
+							Up for Newsletter</label>
+					</a>
+				</div>
+				<div class="col-md-6 register-bottom-grid">
+					<h3><fmt:message key="logInfo" bundle="${lang}"/></h3>
+					<div>
+						<span id="passmsg"><fmt:message key="pass" bundle="${lang}"/> ${requestScope.errors.password}</span> <input type="password" name="password" value="${requestScope.user.password}">
+					</div>
+					<div>
+						<span id="loginmsg"><fmt:message key="login" bundle="${lang}"/> ${requestScope.errors.login}</span> <input type="text" name="login" value="${requestScope.user.login}">
+					</div>
+						<ex:Hello/>
+					<input type="submit" value="Registrate">
+
+				</div>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+	</div>
+	<!--//content-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top-at">
+
+				<div class="col-md-4 amet-sed">
+					<h4>MORE INFO</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">How to order</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="contact.html">Location</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Membership</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<h4>CONTACT US</h4>
+
+					<p>Contrary to popular belief</p>
+					<p>The standard chunk</p>
+					<p>office: +12 34 995 0792</p>
+					<ul class="social">
+						<li><a href="#"><i> </i></a></li>
+						<li><a href="#"><i class="twitter"> </i></a></li>
+						<li><a href="#"><i class="rss"> </i></a></li>
+						<li><a href="#"><i class="gmail"> </i></a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-4 amet-sed">
+					<h4>Newsletter</h4>
+					<p>Sign Up to get all news update and promo</p>
+					<form>
+						<input type="text" value="" onfocus="this.value='';"
+							onblur="if (this.value == '') {this.value ='';}"> <input
+							type="submit" value="Sign up">
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="footer-class">
+			<p>
+				© 2015 New store All Rights Reserved | Design by <a
+					href="http://w3layouts.com/" target="_blank">W3layouts</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

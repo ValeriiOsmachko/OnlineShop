@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="url-pattern" type="xsd:string" />
+	<xsd:element name="role" type="xsd:string" />
+
+
+	<!-- <xsd:complexType name="security"> <xsd:complexType name="security"> 
+		<xsd:sequence> <xsd:element ref="msg" /> </xsd:sequence> <xsd:complexType 
+		name="security"> <xsd:sequence> <xsd:element ref="msg" /> </xsd:sequence> 
+		<xsd:sequence> <xsd:element ref="msg" /> </xsd:sequence> </xsd:complexType> -->
+		
+		
+	<!-- 	
+	<xs: name="security"> -->
+		<!-- <xs:complexType>
+			<xs:sequence>
+				...
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element> -->
+</xsd:schema> 
+
+

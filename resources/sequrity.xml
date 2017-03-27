@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<security xmlns="http://com.epam.osmachko.sequrity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="./security.xsd">
+	<constraint>
+		<url-pattern>/Task10/makeOrder\.jsp.*</url-pattern>
+		<role>client</role>
+	</constraint>
+	<constraint>
+		<url-pattern>/Task10/showResult\.jsp.*</url-pattern>
+		<role>client</role>
+	</constraint>
+</security>
