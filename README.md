@@ -39,3 +39,10 @@ total amount and total price of products in cart.</li>
 <li>maven</li>
 <li>Servlet API</li>
 </ul>
+
+How to use?
+<ol>
+<li>Make <strong>git clone</strong> of this repository</li>
+<li>Open project with you IDE</li>
+<li>Run application on Tomcat</li>
+</ol>
