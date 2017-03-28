@@ -44,5 +44,6 @@ How to use?
 <ol>
 <li>Make <strong>git clone</strong> of this repository</li>
 <li>Open project with you IDE</li>
+<li>Execute SQL script in MySQL DB that is located here: <strong>/resources/sql/</strong></li>
 <li>Run application on Tomcat</li>
 </ol>
