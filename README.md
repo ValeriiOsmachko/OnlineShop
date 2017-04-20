@@ -38,6 +38,9 @@ total amount and total price of products in cart.</li>
 <li>java 8</li>
 <li>maven</li>
 <li>Servlet API</li>
+<li>AJAX</li>
+<li>java script</li>
+<li>JQuery</li>
 </ul>
 
 How to use?
